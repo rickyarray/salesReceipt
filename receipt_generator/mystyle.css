@@ -1,0 +1,28 @@
+body {
+    font-family: "Azo Sans", Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+}
+
+.receipt-container {
+    background-color: #fff;
+    border: 1px solid #ff9923;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.receipt-title {
+    text-align: center;
+    margin-top: 0;
+}
+
+.receipt-info {
+    margin: 10px 0;
+}
+
+.receipt-info::before {
+    font-weight: bold;
+}
+
